@@ -1,0 +1,14 @@
+{
+  "name": "portal-rh",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "useWorkspaces": true,
+  "scripts": {
+    "startapp": "yarn workspace @monorepo/app start",
+    "buildlib": "yarn workspace @monorepo/lib-components libuild"
+  },
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
+}
